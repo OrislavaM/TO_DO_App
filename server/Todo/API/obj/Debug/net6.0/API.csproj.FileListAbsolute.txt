@@ -1,0 +1,514 @@
+E:\Todo\Todo\API\bin\Debug\net6.0\appsettings.Development.json
+E:\Todo\Todo\API\bin\Debug\net6.0\appsettings.json
+E:\Todo\Todo\API\bin\Debug\net6.0\API.exe
+E:\Todo\Todo\API\bin\Debug\net6.0\API.deps.json
+E:\Todo\Todo\API\bin\Debug\net6.0\API.runtimeconfig.json
+E:\Todo\Todo\API\bin\Debug\net6.0\API.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\API.pdb
+E:\Todo\Todo\API\bin\Debug\net6.0\Humanizer.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\MessagePack.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\MessagePack.Annotations.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\NuGet.Common.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\NuGet.Configuration.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\NuGet.LibraryModel.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\NuGet.Packaging.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\NuGet.ProjectModel.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\NuGet.Protocol.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\NuGet.Versioning.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\System.Composition.Convention.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\System.Composition.Hosting.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\System.Composition.Runtime.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\System.Composition.TypedParts.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Todo\Todo\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\Todo\Todo\API\obj\Debug\net6.0\API.csproj.AssemblyReference.cache
+E:\Todo\Todo\API\obj\Debug\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Todo\Todo\API\obj\Debug\net6.0\API.AssemblyInfoInputs.cache
+E:\Todo\Todo\API\obj\Debug\net6.0\API.AssemblyInfo.cs
+E:\Todo\Todo\API\obj\Debug\net6.0\API.csproj.CoreCompileInputs.cache
+E:\Todo\Todo\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cs
+E:\Todo\Todo\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cache
+E:\Todo\Todo\API\obj\Debug\net6.0\staticwebassets.build.json
+E:\Todo\Todo\API\obj\Debug\net6.0\staticwebassets.development.json
+E:\Todo\Todo\API\obj\Debug\net6.0\scopedcss\bundle\API.styles.css
+E:\Todo\Todo\API\obj\Debug\net6.0\API.csproj.CopyComplete
+E:\Todo\Todo\API\obj\Debug\net6.0\API.dll
+E:\Todo\Todo\API\obj\Debug\net6.0\refint\API.dll
+E:\Todo\Todo\API\obj\Debug\net6.0\API.pdb
+E:\Todo\Todo\API\obj\Debug\net6.0\API.genruntimeconfig.cache
+E:\Todo\Todo\API\obj\Debug\net6.0\ref\API.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\appsettings.Development.json
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\appsettings.json
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\API.exe
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\API.deps.json
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\API.runtimeconfig.json
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\API.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\API.pdb
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Humanizer.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\MessagePack.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\MessagePack.Annotations.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\NuGet.Common.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\NuGet.Configuration.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\NuGet.Frameworks.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\NuGet.LibraryModel.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\NuGet.Packaging.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\NuGet.ProjectModel.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\NuGet.Protocol.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\NuGet.Versioning.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\System.Composition.Convention.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\System.Composition.Hosting.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\System.Composition.Runtime.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\System.Composition.TypedParts.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\API.csproj.AssemblyReference.cache
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\API.GeneratedMSBuildEditorConfig.editorconfig
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\API.AssemblyInfoInputs.cache
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\API.AssemblyInfo.cs
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\API.csproj.CoreCompileInputs.cache
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cs
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\API.MvcApplicationPartsAssemblyInfo.cache
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\staticwebassets.build.json
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\staticwebassets.development.json
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\scopedcss\bundle\API.styles.css
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\API.csproj.CopyComplete
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\API.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\refint\API.dll
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\API.pdb
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\API.genruntimeconfig.cache
+E:\FRONT-END 2022\TEST_TASKS_WORK\Impactly\TODO_App\server\Todo\API\obj\Debug\net6.0\ref\API.dll
