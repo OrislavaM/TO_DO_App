@@ -1,13 +1,32 @@
 import './App.css';
-import Login from './components/Login/Login';
-import Registration from './components/Registration/Registration';
+
+import Login from './Pages/Login';
+import Registration from './Pages/Registration';
+import TodoProfile from './Pages/TodoProfile';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <Registration/>
-      <Login/>
-    </div>
+      <BrowserRouter>
+        <Routes>
+              <Route exact path="/"
+                  element = {<Registration />}/>
+              <Route exact path="/login"
+                  element = {<Login />}/>
+              <Route exact path="/todo_profile"
+                  element = {<TodoProfile />}/>
+
+              {/* <Route exact path="/register">
+                  <Registration />
+              </Route>
+              <Route path="/login">
+                  <Login />
+              </Route>
+              <Route path="/todo_profile">
+                  <TodoProfile />
+              </Route> */}
+              </Routes>
+      </BrowserRouter>
   );
 }
 
