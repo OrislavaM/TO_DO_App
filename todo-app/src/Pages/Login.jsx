@@ -72,10 +72,10 @@ function Login() {
             backgroundImage: `url(${Cover})`,
             backgroundRepeat: "no-repeat",
             backgroundColor: (t) =>
-              t.palette.mode === "light"
+              t.palette.mode === "dark"
                 ? t.palette.grey[50]
                 : t.palette.grey[900],
-            backgroundSize: "cover",
+            backgroundSize: "140%",
             backgroundPosition: "center",
           }}
         />
@@ -89,7 +89,7 @@ function Login() {
               alignItems: "center",
             }}
           >
-            <Avatar sx={{ m: 1, bgcolor: "ppalette.background.default" }}>
+            <Avatar sx={{ m: 1, width: 56, height: 56  }}>
               <LockPersonIcon />
             </Avatar>
             <Typography component="h1" variant="h5">
@@ -150,6 +150,7 @@ function Login() {
         </Grid>
       </Grid>
     </ThemeProvider>
+    // LOGIC BEFORE STYLING
     //   {/* <div>Login</div>
     //   <label>User Name</label>
     //   <input

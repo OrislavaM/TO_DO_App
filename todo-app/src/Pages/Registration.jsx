@@ -1,42 +1,165 @@
 import React from "react";
 import { useState } from "react";
-import axios from 'axios'
+import axios from "axios";
 
-function RegisterRequest(){
-const [name, setName] = useState('');
-const [password, setPassword] = useState('');
+import Avatar from "@mui/material/Avatar";
+import Button from "@mui/material/Button";
+import CssBaseline from "@mui/material/CssBaseline";
+import TextField from "@mui/material/TextField";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Checkbox from "@mui/material/Checkbox";
+import Link from "@mui/material/Link";
+import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
+import HowToRegOutlinedIcon from "@mui/icons-material/HowToRegOutlined";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 
-const handleNameChange = (value) =>{
+function Copyright(props) {
+  return (
+    <Typography
+      variant="body2"
+      color="text.secondary"
+      align="center"
+      {...props}
+    >
+      {"Copyright © "}
+      <Link color="inherit" href="/">
+        Todo-App
+      </Link>{" "}
+      {new Date().getFullYear()}
+      {"."}
+    </Typography>
+  );
+}
+
+const theme = createTheme();
+
+function RegisterRequest() {
+  const [name, setName] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleNameChange = (value) => {
     setName(value);
-}
-const handlePasswordChange = (value) =>{
+  };
+  const handlePasswordChange = (value) => {
     setPassword(value);
-}
-const handleSave = () =>{
+  };
+  const handleSave = () => {
     const data = {
-        UserName: name,
-        Password: password
-    }
-const url = 'http://localhost:5108/api/web/v1/auth/register';
+      UserName: name,
+      Password: password,
+    };
+    const url = "http://localhost:5108/api/web/v1/auth/register";
 
-axios.post(url,data).then((result) =>{
-    console.log('User registered successfully!');
-}).catch((error) => {
-    console.log(error);
-})
+    axios
+      .post(url, data)
+      .then((result) => {
+        console.log("User registered successfully!");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
 
+  return (
+    <ThemeProvider theme={theme}>
+      <Container component="main" maxWidth="xs">
+        <CssBaseline />
+        <Box
+          sx={{
+            marginTop: 8,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <Avatar sx={{ m: 1, width: 56, height: 56 }}>
+            <HowToRegOutlinedIcon />
+          </Avatar>
+          <Typography component="h1" variant="h5">
+            SIGN UP
+          </Typography>
+          <Box component="form" noValidate onSubmit={handleSave} sx={{ mt: 3 }}>
+            <Grid container spacing={2}>
+              <Grid item xs={12}>
+                <TextField
+                  required
+                  fullWidth
+                  type="text"
+                  id="txtName"
+                  label="User Name"
+                  name="txtName"
+                  autoComplete="name"
+                  onChange={(e) => handleNameChange(e.target.value)}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  required
+                  fullWidth
+                  name="txtPassword"
+                  label="Password"
+                  type="password"
+                  id="txtPassword"
+                  autoComplete="new-password"
+                  onChange={(e) => handlePasswordChange(e.target.value)}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <FormControlLabel
+                  control={
+                    <Checkbox value="allowExtraEmails" color="primary" />
+                  }
+                  label="I want to receive daily reminders about my tasks."
+                />
+              </Grid>
+            </Grid>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              onClick={handleSave}
+              sx={{ mt: 3, mb: 2 }}
+            >
+              Sign Up
+            </Button>
+            <Grid container justifyContent="flex-end">
+              <Grid item>
+                <Link href="/" variant="body2">
+                  Already have an account? Sign in
+                </Link>
+              </Grid>
+            </Grid>
+          </Box>
+        </Box>
+        <Copyright sx={{ mt: 5 }} />
+      </Container>
+    </ThemeProvider>
+
+// LOGIC BEFORE STYLING
+    // <>
+    //   <div>Registration</div>
+    //   <label>User Name</label>
+    //   <input
+    //     type="text"
+    //     id="txtName"
+    //     placeholder="User Name"
+    //     onChange={(e) => handleNameChange(e.target.value)}
+    //   />{" "}
+    //   <br />
+    //   <label>Password</label>
+    //   <input
+    //     type="text"
+    //     id="txtPassword"
+    //     placeholder="Password"
+    //     onChange={(e) => handlePasswordChange(e.target.value)}
+    //   />{" "}
+    //   <br />
+    //   <button onClick={handleSave}>Register</button>
+    // </>
+  );
 }
 
-    return(
-        <>        
-        <div>Registration</div>
-        <label>User Name</label>
-        <input type="text" id='txtName' placeholder="User Name" onChange={(e) => handleNameChange(e.target.value)}/> <br/>
-        <label>Password</label>
-        <input type="text" id='txtPassword' placeholder="Password" onChange={(e) => handlePasswordChange(e.target.value)}/> <br/>
-        <button onClick={handleSave}>Register</button>
-        </>
-    )
-}
-
-export default RegisterRequest
+export default RegisterRequest;
