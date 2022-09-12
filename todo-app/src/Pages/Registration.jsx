@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
@@ -15,30 +16,14 @@ import HowToRegOutlinedIcon from "@mui/icons-material/HowToRegOutlined";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-
-function Copyright(props) {
-  return (
-    <Typography
-      variant="body2"
-      color="text.secondary"
-      align="center"
-      {...props}
-    >
-      {"Copyright © "}
-      <Link color="inherit" href="/">
-        Todo-App
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
+import Copyright from "../components/Copyright";
 
 const theme = createTheme();
 
 function RegisterRequest() {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleNameChange = (value) => {
     setName(value);
@@ -46,7 +31,8 @@ function RegisterRequest() {
   const handlePasswordChange = (value) => {
     setPassword(value);
   };
-  const handleSave = () => {
+  const handleRegister = (e) => {
+    e.preventDefault();
     const data = {
       UserName: name,
       Password: password,
@@ -56,7 +42,13 @@ function RegisterRequest() {
     axios
       .post(url, data)
       .then((result) => {
-        console.log("User registered successfully!");
+        console.log(result);
+        if (result.status === 200) {
+          console.log("User registration successfully!");
+          navigate("/");
+        } else {
+          console.log("User registered error!");
+        }
       })
       .catch((error) => {
         console.log(error);
@@ -81,7 +73,7 @@ function RegisterRequest() {
           <Typography component="h1" variant="h5">
             SIGN UP
           </Typography>
-          <Box component="form" noValidate onSubmit={handleSave} sx={{ mt: 3 }}>
+          <Box component="form" noValidate onSubmit={handleRegister} sx={{ mt: 3 }}>
             <Grid container spacing={2}>
               <Grid item xs={12}>
                 <TextField
@@ -120,7 +112,6 @@ function RegisterRequest() {
               type="submit"
               fullWidth
               variant="contained"
-              onClick={handleSave}
               sx={{ mt: 3, mb: 2 }}
             >
               Sign Up
@@ -137,28 +128,6 @@ function RegisterRequest() {
         <Copyright sx={{ mt: 5 }} />
       </Container>
     </ThemeProvider>
-
-// LOGIC BEFORE STYLING
-    // <>
-    //   <div>Registration</div>
-    //   <label>User Name</label>
-    //   <input
-    //     type="text"
-    //     id="txtName"
-    //     placeholder="User Name"
-    //     onChange={(e) => handleNameChange(e.target.value)}
-    //   />{" "}
-    //   <br />
-    //   <label>Password</label>
-    //   <input
-    //     type="text"
-    //     id="txtPassword"
-    //     placeholder="Password"
-    //     onChange={(e) => handlePasswordChange(e.target.value)}
-    //   />{" "}
-    //   <br />
-    //   <button onClick={handleSave}>Register</button>
-    // </>
   );
 }
 

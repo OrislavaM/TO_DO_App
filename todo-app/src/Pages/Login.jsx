@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
+
 
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
@@ -16,25 +18,14 @@ import LockPersonIcon from "@mui/icons-material/LockPerson";
 import Typography from "@mui/material/Typography";
 import Cover from "../img/COVER_TODO.png";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-
-function Copyright(props) {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center" {...props}>
-      {"Copyright © "}
-      <Link color="inherit" href="/">
-        Todo-App
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
+import Copyright from "../components/Copyright";
 
 const theme = createTheme();
 
 function Login() {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleNameChange = (value) => {
     setName(value);
@@ -42,7 +33,8 @@ function Login() {
   const handlePasswordChange = (value) => {
     setPassword(value);
   };
-  const handleLogin = () => {
+  const handleLogin = (e) => {
+    e.preventDefault()
     const data = {
       UserName: name,
       Password: password,
@@ -52,7 +44,14 @@ function Login() {
     axios
       .post(url, data)
       .then((result) => {
-        console.log("login");
+
+        console.log(result);
+        if (result.status === 200) {
+            localStorage.setItem('todo_token', result.data.authorization.accessToken)
+            navigate("/todo_profile");
+          } else {
+            console.log("User registered error!");
+          };
       })
       .catch((error) => {
         console.log(error);
@@ -95,7 +94,7 @@ function Login() {
             <Typography component="h1" variant="h5">
               LOGIN
             </Typography>
-            <Box component="form" sx={{ mt: 1 }}>
+            <Box component="form" onSubmit={handleLogin} sx={{ mt: 1 }}>
               <TextField
                 margin="normal"
                 required
@@ -128,7 +127,6 @@ function Login() {
                 fullWidth
                 variant="contained"
                 sx={{ mt: 3, mb: 2 }}
-                onClick={handleLogin}
               >
                 Login
               </Button>
@@ -150,25 +148,6 @@ function Login() {
         </Grid>
       </Grid>
     </ThemeProvider>
-    // LOGIC BEFORE STYLING
-    //   {/* <div>Login</div>
-    //   <label>User Name</label>
-    //   <input
-    //     type="text"
-    //     id="txtName"
-    //     placeholder="Enter Name"
-    //     onChange={(e) => handleNameChange(e.target.value)}
-    //   />{" "}
-    //   <br />
-    //   <label>Password</label>
-    //   <input
-    //     type="text"
-    //     id="txtPassword"
-    //     placeholder="Password"
-    //     onChange={(e) => handlePasswordChange(e.target.value)}
-    //   />{" "}
-    //   <br />
-    //   <button onClick={handleLogin}>Login</button> */}
   );
 }
 
