@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(33 33 33);
+    color: #fff;
+}
+
+.container{
+    text-align: center;
+}
+
+.header{
+    max-width: 100%;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.tasksWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.taskBg {
+background-color: rgb(180, 180, 180);
+border-radius: 6px;
+margin: 30px 0;
+padding: 10px 250px 10px 10px;
+text-align: left;
+font-size: 20px;
+position: relative;
+}
+
+.taskBg:hover{
+    box-shadow: 3px 3px rgb(195, 255, 30);
+    transition: 0.3s;
+}
+
+.taskNumber{
+    color:rgb(213, 213, 213);
+    border: 3px solid rgb(213, 213, 213);
+    border-radius: 25%;
+    font-size: 18px;    
+    margin: 10px 15px;
+    padding: 10px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskBg:hover .taskNumber{
+color: #fff;
+}
+
+.taskBg .taskText{
+    flex: 1;
+}
+
+.iconWrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    width: auto;
+    display: flex;
+}
+
+.iconWrapper span {
+    display: inline-block;
+    cursor: pointer;
+    margin: 1rem;
+    color: rgb(213, 213, 213);
+}
+.iconWrapper span:hover {
+    color: rgb(195, 255, 30);
+}
+
+/* Bootstrap */
+.btn-group-lg>.btn, .btn-lg{
+    margin: 0 10px;
+}
+
+

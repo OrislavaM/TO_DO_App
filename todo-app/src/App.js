@@ -1,5 +1,3 @@
-import "./App.css";
-
 import Login from "./Pages/Login";
 import Registration from "./Pages/Registration";
 import TodoProfile from "./Pages/TodoProfile";

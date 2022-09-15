@@ -23,20 +23,27 @@ import Copyright from "../components/Copyright";
 const theme = createTheme();
 
 function Login() {
-  const [name, setName] = useState("");
-  const [password, setPassword] = useState("");
-  const navigate = useNavigate();
 
+  const navigate = useNavigate();
+  
+  // Username/Password State
+  const [username, setName] = useState("");
+  const [password, setPassword] = useState("");
+
+
+  // Functions for Form
   const handleNameChange = (value) => {
     setName(value);
   };
   const handlePasswordChange = (value) => {
     setPassword(value);
   };
+
+  // Login Logic
   const handleLogin = (e) => {
     e.preventDefault()
     const data = {
-      UserName: name,
+      UserName: username,
       Password: password,
     };
     const url = "http://localhost:5108/api/web/v1/auth";
@@ -100,10 +107,10 @@ function Login() {
                 required
                 fullWidth
                 type="text"
-                id="txtName"
-                label="Enter the name"
-                name="txtName"
-                autoComplete="name"
+                id="username"
+                label="Username"
+                name="username"
+                autoComplete="off"
                 onChange={(e) => handleNameChange(e.target.value)}
                 autoFocus
               />

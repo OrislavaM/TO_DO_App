@@ -1,7 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+// import { useForm, Controller } from "react-hook-form";
+// import { yupResolver } from "@hookform/resolvers/yup";
+import * as Yup from "yup";
+import { useFormik } from "formik";
+// import { useNavigate } from "react-router-dom";
 
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
@@ -21,39 +25,64 @@ import Copyright from "../components/Copyright";
 const theme = createTheme();
 
 function RegisterRequest() {
-  const [name, setName] = useState("");
-  const [password, setPassword] = useState("");
-  const navigate = useNavigate();
+    // const navigate = useNavigate();
 
+    // Username/Password State
+  const [username, setName] = useState("");
+  const [password, setPassword] = useState("");
+
+    // Functions for Form
   const handleNameChange = (value) => {
     setName(value);
   };
   const handlePasswordChange = (value) => {
     setPassword(value);
   };
-  const handleRegister = (e) => {
-    e.preventDefault();
-    const data = {
-      UserName: name,
-      Password: password,
-    };
-    const url = "http://localhost:5108/api/web/v1/auth/register";
 
-    axios
-      .post(url, data)
-      .then((result) => {
-        console.log(result);
-        if (result.status === 200) {
-          console.log("User registration successfully!");
-          navigate("/");
-        } else {
-          console.log("User registered error!");
-        }
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
+  // TODO________________VALIDATION__________________________
+  const schema = Yup.object({
+    username: Yup.string()
+      .min(5, "Mininum 5 characters")
+      .max(20, "Maximum 20 characters")
+      .required("You must enter a username"),
+    password: Yup.string()
+      .min(6, "Password is not secure")
+      .required("Password is required"),
+  });
+
+  const formik = useFormik({
+    initialValues: {
+      username: "",
+      password: "",
+    },
+    onSubmit: (result, helpers) => {
+      console.log(result)
+      const handleRegister = (e) => {
+        e.preventDefault();
+        const data = {
+          UserName: username,
+          Password: password,
+        };
+        const url = "http://localhost:5108/api/web/v1/auth/register";
+
+        axios
+          .post(url, data)
+          .then((result) => {
+            if (result.status === 200) {
+              return console.log("mes");
+              // navigate("/");
+            } else {
+              console.log("User registered error!");
+            }
+          })
+          .catch((error) => {
+            console.log(error);
+            helpers.setErrors({submit:error.message})
+          });
+      };
+    }, validationSchema:schema
+  });
+  // TODO______________________________________________________
 
   return (
     <ThemeProvider theme={theme}>
@@ -73,18 +102,25 @@ function RegisterRequest() {
           <Typography component="h1" variant="h5">
             SIGN UP
           </Typography>
-          <Box component="form" noValidate onSubmit={handleRegister} sx={{ mt: 3 }}>
+          <Box
+            component="form"
+            noValidate
+            onSubmit={formik.handleSubmit}
+            sx={{ mt: 3 }}
+          >
             <Grid container spacing={2}>
               <Grid item xs={12}>
                 <TextField
                   required
                   fullWidth
                   type="text"
-                  id="txtName"
-                  label="User Name"
-                  name="txtName"
-                  autoComplete="name"
-                  onChange={(e) => handleNameChange(e.target.value)}
+                  id="username"
+                  label="Username"
+                  name="username"
+                  autoComplete="off"
+                  error={formik.errors.username}
+                  helperText={formik.errors.username}
+                  onChange={formik.handleChange}
                 />
               </Grid>
               <Grid item xs={12}>
@@ -96,7 +132,9 @@ function RegisterRequest() {
                   type="password"
                   id="txtPassword"
                   autoComplete="new-password"
-                  onChange={(e) => handlePasswordChange(e.target.value)}
+                  error={formik.errors.password}
+                  helperText={formik.errors.password}
+                  onChange={formik.handleChange}
                 />
               </Grid>
               <Grid item xs={12}>
