@@ -1,74 +1,60 @@
-import React from "react";
-import { useState } from "react";
-import axios from "axios";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
-
+import Alert from "@mui/material/Alert";
+import AlertTitle from "@mui/material/AlertTitle";
 import Avatar from "@mui/material/Avatar";
-import Button from "@mui/material/Button";
-import CssBaseline from "@mui/material/CssBaseline";
-import TextField from "@mui/material/TextField";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
-import Link from "@mui/material/Link";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import LockPersonIcon from "@mui/icons-material/LockPerson";
 import Typography from "@mui/material/Typography";
 import Cover from "../img/COVER_TODO.png";
+import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+
 import Copyright from "../components/Copyright";
+import LoginForm from "../components/Auth/LoginForm";
 
 const theme = createTheme();
 
 function Login() {
-
   const navigate = useNavigate();
-  
-  // Username/Password State
-  const [username, setName] = useState("");
-  const [password, setPassword] = useState("");
 
-
-  // Functions for Form
-  const handleNameChange = (value) => {
-    setName(value);
-  };
-  const handlePasswordChange = (value) => {
-    setPassword(value);
-  };
+  // Error State
+  const [error, setError] = useState(false);
 
   // Login Logic
-  const handleLogin = (e) => {
-    e.preventDefault()
+  const userLogin = (values) => {
     const data = {
-      UserName: username,
-      Password: password,
+      UserName: values.username,
+      Password: values.password,
     };
-    const url = "http://localhost:5108/api/web/v1/auth";
+    const url = process.env.REACT_APP_API_URL + "/auth";
+    setError(false);
 
     axios
       .post(url, data)
       .then((result) => {
-
         console.log(result);
         if (result.status === 200) {
-            localStorage.setItem('todo_token', result.data.authorization.accessToken)
-            navigate("/todo_profile");
-          } else {
-            console.log("User registered error!");
-          };
+          localStorage.setItem(
+            "todo_token",
+            result.data.authorization.accessToken
+          );
+          navigate("/todo_profile");
+        }
       })
       .catch((error) => {
-        console.log(error);
+        setError(true);
       });
   };
 
   return (
     <ThemeProvider theme={theme}>
+      <CssBaseline />
       <Grid container component="main" sx={{ height: "100vh" }}>
-        <CssBaseline />
         <Grid
           item
           xs={false}
@@ -95,62 +81,21 @@ function Login() {
               alignItems: "center",
             }}
           >
-            <Avatar sx={{ m: 1, width: 56, height: 56  }}>
+            <Avatar sx={{ m: 1, width: 56, height: 56 }}>
               <LockPersonIcon />
             </Avatar>
-            <Typography component="h1" variant="h5">
+            <Typography component="h1" variant="h5" margin="20px">
               LOGIN
             </Typography>
-            <Box component="form" onSubmit={handleLogin} sx={{ mt: 1 }}>
-              <TextField
-                margin="normal"
-                required
-                fullWidth
-                type="text"
-                id="username"
-                label="Username"
-                name="username"
-                autoComplete="off"
-                onChange={(e) => handleNameChange(e.target.value)}
-                autoFocus
-              />
-              <TextField
-                margin="normal"
-                required
-                fullWidth
-                name="txtPassword"
-                label="Password"
-                type="password"
-                id="txtPassword"
-                onChange={(e) => handlePasswordChange(e.target.value)}
-                autoComplete="current-password"
-              />
-              <FormControlLabel
-                control={<Checkbox value="remember" color="primary" />}
-                label="Remember me"
-              />
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                sx={{ mt: 3, mb: 2 }}
-              >
-                Login
-              </Button>
-              <Grid container>
-                <Grid item xs>
-                  <Link href="#" variant="body2">
-                    Forgot password?
-                  </Link>
-                </Grid>
-                <Grid item>
-                  <Link href="/registration" variant="body2">
-                    {"Don't have an account? Sign Up"}
-                  </Link>
-                </Grid>
-              </Grid>
-              <Copyright sx={{ mt: 5 }} />
-            </Box>
+            {error && (
+            <Alert severity="error">
+              <AlertTitle>Error</AlertTitle>
+              Something went wrong.<strong> Please try again!</strong>
+            </Alert>
+          )}
+          <br />
+          <LoginForm submitHandler={userLogin} />
+          <Copyright sx={{ mt: 3 }} />
           </Box>
         </Grid>
       </Grid>

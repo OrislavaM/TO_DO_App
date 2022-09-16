@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../img/Header-TodoSVG.svg";
 import AddTask from "../components/Todo/AddTask.jsx";
@@ -36,7 +37,7 @@ const fakeTodos = [
 ];
 
 function TodoProfile() {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   // Task-List State
   const [toDo, setToDo] = useState(fakeTodos);
@@ -78,32 +79,33 @@ function TodoProfile() {
       (fakeTodos) => fakeTodos.id !== updateData.id
     );
     setToDo([...removeOldRecord, updateData]);
-    setUpdateData('')
+    setUpdateData("");
   };
   //! _________________________________________________________
-
   // TODO LOCAL STORAGE
-  // useEffect(() => {
-  //   const userToken = localStorage.getItem("todo_token");
-  //   if (!userToken) {
-  //     navigate("/");
-  //   }
-  // }, [navigate]);
+  useEffect(() => {
+    const userToken = localStorage.getItem("todo_token");
+    if (!userToken) {
+      navigate("/");
+    }
+  }, [navigate]);
 
   // TODO API LOGIC
-  // useEffect(() => {
-  //   const getTodos = async () => {
-  //     const config = {
-  //       headers: { "Access-Control-Allow-Origin": "*" },
-  //     };
-  //     const result = await axios.get(
-  //       "http://localhost:5108/api/web/v1/todos",
-  //       config
-  //     );
-  //     console.log(result);
-  //   };
-  //   getTodos();
-  // }, []);
+  useEffect(() => {
+    const getTodos = async () => {
+      const userToken = localStorage.getItem("todo_token");
+
+      const config = {
+        headers: { Bearer: userToken },
+      };
+      const result = await axios.get(
+        process.env.REACT_APP_API_URL + "/todos",
+        config
+      );
+      console.log(result);
+    };
+    getTodos();
+  }, []);
   //! _________________________________________________________
 
   return (
@@ -128,6 +130,11 @@ function TodoProfile() {
         setUpdateData={setUpdateData}
         deleteTask={deleteTask}
       />
+      <div className="link">
+        <a href="/" class="link-secondary">
+          LOG OUT
+        </a>
+      </div>
     </div>
   );
 }
