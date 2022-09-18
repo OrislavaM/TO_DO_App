@@ -66,7 +66,7 @@ function TodoProfile() {
         config
       );
       if (result.status === 200) {
-        setToDo([...toDo, newTodo]);
+        setToDo([...toDo, result.data]);
         setNewTask("");
       }
     }
