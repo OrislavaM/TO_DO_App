@@ -23,7 +23,6 @@ function RegisterRequest() {
   // Error State
   const [error, setError] = useState(false);
 
-  // Registration Logic
   const userRegister = (values) => {
     const data = {
       UserName: values.username,

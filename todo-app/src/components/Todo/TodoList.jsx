@@ -9,23 +9,23 @@ const TodoList = ({ toDo, setUpdateData, deleteTask }) => {
       {toDo &&
         toDo
           .sort((a, b) => (a.id > b.id ? 1 : -1))
-          .map((fakeTodos, index) => {
+          .map((toDo, index) => {
             return (
-              <React.Fragment key={fakeTodos.id}>
+              <React.Fragment key={toDo.id}>
                 <div className="col taskBg">
                   <div className="tasksWrapper">
                     <span className="taskNumber">{index + 1}</span>
-                    <span className="taskText">{fakeTodos.title}</span>
+                    <span className="taskText">{toDo.title}</span>
                   </div>
                   <div className="iconWrapper">
                     <span
                       onClick={() =>
-                        setUpdateData(fakeTodos)
+                        setUpdateData(toDo)
                       }
                     >
                       <FontAwesomeIcon icon={faPenToSquare} title="Update" />{" "}
                     </span>
-                    <span onClick={() => deleteTask(fakeTodos.id)}>
+                    <span onClick={() => deleteTask(toDo.id)}>
                       <FontAwesomeIcon icon={faTrashCan} title="Delete" />{" "}
                     </span>
                   </div>

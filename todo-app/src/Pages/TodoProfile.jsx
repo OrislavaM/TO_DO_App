@@ -9,55 +9,84 @@ import TodoList from "../components/Todo/TodoList.jsx";
 import UpdateTask from "../components/Todo/UpdateTask.jsx";
 import "../styles/TodoProfile.css";
 
-const fakeTodos = [
-  {
-    id: "1",
-    userId: "12",
-    title: "Learn JavaScript",
-    description: "JavaScript",
-    createdAt: "2022-09-12T20:53:08.970Z",
-    updatedAt: "2022-09-12T20:53:08.970Z",
-  },
-  {
-    id: "2",
-    userId: "34",
-    title: "Learn React",
-    description: "React",
-    createdAt: "2022-09-12T20:53:08.970Z",
-    updatedAt: "2022-09-12T20:53:08.970Z",
-  },
-  {
-    id: "3",
-    userId: "1234",
-    title: "Learn Angular",
-    description: "Angular",
-    createdAt: "2022-09-12T20:53:08.970Z",
-    updatedAt: "2022-09-12T20:53:08.970Z",
-  },
-];
-
 function TodoProfile() {
   const navigate = useNavigate();
 
   // Task-List State
-  const [toDo, setToDo] = useState(fakeTodos);
+  const [toDo, setToDo] = useState([]);
 
-  // Temporary State
   const [newTask, setNewTask] = useState("");
   const [updateData, setUpdateData] = useState("");
 
+  useEffect(() => {
+    const userToken = localStorage.getItem("todo_token");
+    if (!userToken) {
+      navigate("/");
+    }
+  }, [navigate]);
+
+  useEffect(() => {
+    const getTodos = async () => {
+      const userToken = localStorage.getItem("todo_token");
+
+      const config = {
+        headers: { Authorization: `Bearer ${userToken}` },
+      };
+      const result = await axios.get(
+        process.env.REACT_APP_API_URL + "/todos",
+        config
+      );
+      setToDo(result.data);
+    };
+    getTodos();
+  }, []);
+
   // Add task
-  const addTask = () => {
+  const addTask = async () => {
     if (newTask) {
-      let num = fakeTodos.length + 1;
-      setToDo([...toDo, { id: num, title: newTask }]);
-      setNewTask("");
+      let num = toDo.length + 1;
+      const userToken = localStorage.getItem("todo_token");
+      const userId = localStorage.getItem("todo_userId");
+
+      const config = {
+        headers: { Authorization: `Bearer ${userToken}` },
+      };
+      const newTodo = {
+        id: "" + num,
+        userId: userId,
+        title: newTask,
+        description: "",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      };
+
+      const result = await axios.post(
+        process.env.REACT_APP_API_URL + "/todos",
+        newTodo,
+        config
+      );
+      if (result.status === 200) {
+        setToDo([...toDo, newTodo]);
+        setNewTask("");
+      }
     }
   };
 
   // Delete Task
-  const deleteTask = (id) => {
-    setToDo(toDo.filter((fakeTodos) => fakeTodos.id !== id));
+  const deleteTask = async (id) => {
+    const userToken = localStorage.getItem("todo_token");
+    // console.log(id);
+    const config = {
+      headers: { Authorization: `Bearer ${userToken}` },
+    };
+
+    const result = await axios.delete(
+      process.env.REACT_APP_API_URL + `/todos/${id}`,
+      config
+    );
+    if (result.status === 200) {
+      setToDo(toDo.filter((toDo) => toDo.id !== id));
+    }
   };
 
   // Change task for update
@@ -74,39 +103,44 @@ function TodoProfile() {
   };
 
   // Update task
-  const updateTask = () => {
-    let removeOldRecord = [...toDo].filter(
-      (fakeTodos) => fakeTodos.id !== updateData.id
-    );
-    setToDo([...removeOldRecord, updateData]);
-    setUpdateData("");
-  };
-  //! _________________________________________________________
-  // TODO LOCAL STORAGE
-  useEffect(() => {
+  const updateTask = async () => {
+    // console.log(updateData);
     const userToken = localStorage.getItem("todo_token");
-    if (!userToken) {
-      navigate("/");
-    }
-  }, [navigate]);
 
-  // TODO API LOGIC
-  useEffect(() => {
-    const getTodos = async () => {
-      const userToken = localStorage.getItem("todo_token");
-
-      const config = {
-        headers: { Bearer: userToken },
-      };
-      const result = await axios.get(
-        process.env.REACT_APP_API_URL + "/todos",
-        config
-      );
-      console.log(result);
+    const config = {
+      headers: { Authorization: `Bearer ${userToken}` },
     };
-    getTodos();
-  }, []);
-  //! _________________________________________________________
+    const newTodo = {
+      ...updateData,
+      updatedAt: new Date(),
+    };
+
+    const result = await axios.put(
+      process.env.REACT_APP_API_URL + `/todos/${updateData.id}`,
+      newTodo,
+      config
+    );
+    if (result.status === 200) {
+      let removeOldRecord = [...toDo].filter(
+        (result) => result.id !== updateData.id
+      );
+      setToDo([...removeOldRecord, updateData]);
+      setUpdateData("");
+    }
+  };
+
+  // Log out function
+  const userLogout = () =>{
+    localStorage.setItem(
+      "todo_token",
+      '',
+    );
+    localStorage.setItem(
+      "todo_userId",
+      '',
+    );
+    navigate('/')
+}
 
   return (
     <div className="container">
@@ -131,9 +165,9 @@ function TodoProfile() {
         deleteTask={deleteTask}
       />
       <div className="link">
-        <a href="/" class="link-secondary">
+        <p onClick={userLogout} className="link-secondary">
           LOG OUT
-        </a>
+        </p>
       </div>
     </div>
   );

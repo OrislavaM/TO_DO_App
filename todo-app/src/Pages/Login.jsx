@@ -25,7 +25,6 @@ function Login() {
   // Error State
   const [error, setError] = useState(false);
 
-  // Login Logic
   const userLogin = (values) => {
     const data = {
       UserName: values.username,
@@ -37,11 +36,14 @@ function Login() {
     axios
       .post(url, data)
       .then((result) => {
-        console.log(result);
         if (result.status === 200) {
           localStorage.setItem(
             "todo_token",
-            result.data.authorization.accessToken
+            result.data.authorization.accessToken,
+          );
+          localStorage.setItem(
+            "todo_userId",
+            result.data.user.id,
           );
           navigate("/todo_profile");
         }
